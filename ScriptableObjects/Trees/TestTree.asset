@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9716ad20f5249054b95a21d3f8893fa5, type: 3}
+  m_Name: TestTree
+  m_EditorClassIdentifier: 
+  treeName: TestTree
+  isFruitable: 1
+  woodType: 3
+  seasonSprites: []
+  treeStagesDataList:
+  - prefab: {fileID: 8790271264591143134, guid: 64631102a24908645b1e711a9c2d2da9, type: 3}
+    treeStage: 0
+    canBeChopped: 0
+    woodYield: 0
+    woodQuality: 2
+  - prefab: {fileID: 6796125143863369765, guid: 0dec82b776bee854a9bcd528da1b5870, type: 3}
+    treeStage: 1
+    canBeChopped: 0
+    woodYield: 0
+    woodQuality: 2
+  - prefab: {fileID: 1243957105475172395, guid: 84fec45991af55c45a4245bde8660a5a, type: 3}
+    treeStage: 2
+    canBeChopped: 1
+    woodYield: 5
+    woodQuality: 2
+  - prefab: {fileID: 2337601997886775601, guid: 4a810e460e62ce149bcb396e593f49ef, type: 3}
+    treeStage: 3
+    canBeChopped: 1
+    woodYield: 10
+    woodQuality: 2
+  - prefab: {fileID: 3858243923408980441, guid: d349e2e7b8258c24e8a514c83c653032, type: 3}
+    treeStage: 4
+    canBeChopped: 1
+    woodYield: 3
+    woodQuality: 2
